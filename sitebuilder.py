@@ -32,7 +32,7 @@ def page(path):
     page = pages.get_or_404(path)
     return render_template('page.html', page=page)
     
-@app.route('/404')
+@app.route('/map')
 def fourohfour():
     return render_template('404.html')
 

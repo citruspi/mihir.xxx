@@ -34,11 +34,7 @@ def page(path):
     
 @app.route('/map')
 def fourohfour():
-    return render_template('404.html')
-
-@app.errorhandler(404)
-def page_not_found(e):
-    return render_template('404.html'), 404    
+    return render_template('map.html'), 404
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":

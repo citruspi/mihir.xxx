@@ -394,6 +394,53 @@ footer {
   body {
     padding:15px;
   }
+
+  section p, strong {
+    /*margin-top: 20px;*/
+    
+    margin:0 0 20px;
+    display: inline;
+    float:none;
+    position:static;
+    width:auto;
+
+  }
+
+  section hr {
+    border:0;
+    background:#e5e5e5;
+    height:1px;
+    margin:0 0 20px;
+  }
+
+  section blockquote {
+    border-left:1px solid #e5e5e5;
+    margin: 10px 0px;
+    padding:0 0 0 20px;
+    font-style:italic;
+  }
+
+  section ul {
+    position:static;
+    display: inline;
+    margin-left: 20px;
+
+  }
+
+  section h3 {
+    margin-top: 20px;
+    
+  }
+
+  section pre, code {
+    /*word-wrap:normal;*/
+    margin-top: 20px;
+  }
+
+  section img {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
   
   header ul, p {
     display:none;

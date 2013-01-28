@@ -395,7 +395,7 @@ footer {
     padding:15px;
   }
 
-  section p, strong {
+  section p {
     /*margin-top: 20px;*/
     
     margin:0 0 20px;
@@ -422,9 +422,8 @@ footer {
 
   section ul {
     position:static;
-    display: inline;
-    margin-left: 20px;
-
+    margin:0 0 20px;
+    margin: 10px 0px;
   }
 
   section h3 {
@@ -438,8 +437,7 @@ footer {
   }
 
   section img {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin: 10px 0px;
   }
   
   header ul, p {

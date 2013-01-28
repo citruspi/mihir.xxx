@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Web Log</h2>
+    <ul style="list-style-type:none">
+    {% for page in pages|sort(attribute='date', reverse=True) %}
+        <li>
+            [{{ page.date }}] <a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a>            
+        </li>
+    {% else %}
+        <li>No stuff.</li>
+    {% endfor %}
+    </ul>
+    <h2>Code &amp; Projects</h2>
+
+    <h4>Python</h4>
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Active</th>
+            <th>Links</th>
+        </tr>
+        <tr>
+            <td>Sentry</td>
+            <td>Papertrail alerts via SMS</td>
+            <td><span class="label label-success">Yes</span></td>
+            <td><a href="http://citruspi.github.com/Sentry">Github</a></td>
+        </tr>
+    </table>
+
+    <h4>OS X</h4>
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Active</th>
+            <th>Links</th>
+        </tr>
+        <tr>
+            <td>Zinc</td>
+            <td>Music syncing for everything (OS X)</td>
+            <td><span class="label label-success">Yes</span></td>
+            <td><a href="http://citruspi.github.com/Zinc">Github</a></td>
+        </tr>
+        <tr>
+            <td>Transmute</td>
+            <td>A Calibre CLI and kindlegen wrapper</td>
+            <td><span class="label label-success">Yes</span></td>
+            <td><a href="http://citruspi.github.com/Transmute">Github</a></td>
+        </tr>
+    </table>
+
+    <h4>iOS</h4>
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Active</th>
+            <th>Links</th>
+        </tr>
+        <tr>
+            <td>Capitals</td>
+            <td>A (much too) easy geography game</td>
+            <td><span class="label label-important">No</span></td>
+            <td><a href="http://citruspi.github.com/Capitals">Github</a></td>
+        </tr>
+    </table>
+
+    <h4>PHP</h4>
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Active</th>
+            <th>Links</th>
+        </tr>
+        <tr>
+            <td>Kwirio.us</td>
+            <td>An Internetz powered hash cracker</td>
+            <td><span class="label label-important">No</span></td>
+            <td><a href="http://citruspi.github.com/Kwirio.us">Github</a></td>
+        </tr>
+    </table>
+
+{% endblock content %}

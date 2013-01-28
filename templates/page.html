@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+    
+    <h2>{{ page.title }}</h2>
+    
+    {{ page.html|safe }}
+
+    <hr>
+
+    Posted by {{ page.author }} on {{ page.date }} and updated 
+    {% if page.updated %}
+    on {{ page.updated }}
+    {% else %}
+    never
+    {% endif %}
+    .
+    <br/>
+    Filed under <a href="{{ url_for("cat", cat=page.category) }}">{{ page.category }}</a>. Tagged
+
+    {% for page_tag in page.meta.tags %}
+        <a href="{{ url_for("tag", tag=page_tag) }}"> #{{ page_tag }}</a>
+    {% endfor %}
+
+{% endblock content %}

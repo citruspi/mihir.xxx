@@ -1,0 +1,9 @@
+<ul style="list-style-type:none">
+{% for page in pages %}
+    <li>
+        [ {{ page.date }}] <a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a>
+    </li>
+{% else %}
+    <li>No posts.</li>
+{% endfor %}
+</ul>

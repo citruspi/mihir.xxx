@@ -1,0 +1,74 @@
+theme: minimal
+title: mihir.xxx
+about: > 
+
+  _No porn here, <del>get it on elsewhere</del> move on._
+
+  
+  Hi there, I'm Mihir. Python programmer. Open Source Advocate. Cheesecake lover. Apple fanboy. All of that.
+
+
+  mihir.xxx is a static site generated with [ford](#), a static site generator in Python based on the KISS princicple.
+
+
+  Profiles:
+                 
+  * Bit Bucket - [citruspi](http://bitbucket.org/citruspi)
+
+  * Github - [citruspi](http://github.com/citruspi)
+
+  * App.net - [citruspi](http://app.net/citruspi)
+
+  * Stack Exchange - [citruspi](http://stackexchange.com/users/1346143/citruspi)
+
+  * Last.fm - [citruspi](http://www.last.fm/user/citruspi)
+
+
+  Want to talk? Send me an [email](mailto:me@mihirsingh.com).
+
+footer: > 
+  <small>Theme by orderedlist. Ported by me.<br/>Copyright &copy; 2012 Mihir Singh ([@citruspi](http://app.net/citruspi))
+  </small>
+
+post_blog: >
+
+  ## Code &amp; Projects
+
+  #### Python
+
+  | Project | Description | Active | Link |
+
+  |:-|:-|:-|:-|
+
+  | Sentry | Papertrail alerts via SMS | <span class="label label-success">Yes</span> | [Github](http://citruspi.github.com/Sentry) |
+
+  | Ford | Tiny static blog generator for Python (KISS) | <span class="label label-success">Yes</span> | [Unavailable]() |
+  
+
+  #### OS X
+
+  | Project | Description | Active | Link |
+
+  |:-|:-|:-|:-|
+
+  | Zinc | Music syncing for everything (OS X) | <span class="label label-success">Yes</span> | [Github](http://citruspi.github.com/Zinc) |
+
+  | Transmute | A Calibre CLI and kindlegen wrapper | <span class="label label-success">Yes</span> | [Github](http://citruspi.github.com/Transmute) |
+
+  
+  #### iOS
+
+  | Project | Description | Active | Link |
+
+  |:-|:-|:-|:-|
+
+  | Capitals | A (much too) easy geography game | <span class="label label-important">No</span> | [Github](http://citruspi.github.com/Capitals) |
+
+  
+  #### PHP
+
+  | Project | Description | Active | Link |
+
+  |:-|:-|:-|:-|
+
+  | Kwirio.us | An Internetz powered hash cracker | <span class="label label-important">No</span> | [Github](http://citruspi.github.com/Kwirio.us) |

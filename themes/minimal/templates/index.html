@@ -12,6 +12,8 @@
     {% endfor %}
     </ul>
     
+    {% if config['post_blog'] is defined %}
     {{ config['post_blog']|markdown|safe }}
+    {% endif %}
     
 {% endblock content %}

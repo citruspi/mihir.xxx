@@ -1,4 +1,6 @@
-ford
-flask==0.9
-Frozen-Flask==0.10
-Flask-FlatPages==0.3
+#ford dependencies
+
+Flask>=0.9
+Flask-FlatPages>=0.3
+Frozen-Flask>=0.9
+PyYAML>=3.10

@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
         <!-- TITLE += POST TITLE -->
-        <title>mihir {% if page is defined %} | {{ page.title }} {% endif %}</title>
+        <title>{% if config['title'] is defined %} {{ config['title'] }} {% endif %} {% if page is defined %} | {{ page.title }} {% endif %}</title>
     
         <!-- GENERAL STYLESHEET -->
         <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
@@ -24,7 +24,6 @@
 
             <!-- HEADER - TITLE, DESCRIPTION, ETC. -->
             <header>
-                <!--<center><img src="{{ url_for('static', filename='mihir_logo.png') }}" width="100" height="100"></img></center>-->
                 <a href="{{ url_for("index") }}"><h1>{{ config['title']|markdown|safe }}</h1></a>
                 {{ config['about']|markdown|safe }}                   
             </header>
@@ -45,6 +44,7 @@
     <!-- SCALE FIX JAVASCRIPT -->
     <script src="{{ url_for('static', filename='scale.fix.js') }}"></script>  
 
+    {% if config['guages_id'] is defined %}
     <!-- ANALYTICS (GAUG.ES) SCRIPT - LOAD ONTO ALL PAGES -->
     <script type="text/javascript">
     var _gauges = _gauges || [];
@@ -53,11 +53,13 @@
       t.type  = 'text/javascript';
       t.async = true;
       t.id    = 'gauges-tracker';
-      t.setAttribute('data-site-id', '5106ef43108d7b5582000018');
+      t.setAttribute('data-site-id', '{{ config['guages_id'] }}');
       t.src = '//secure.gaug.es/track.js';
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(t, s);
     })();
   </script>
+  {% endif %}
+
   </body>
 </html>

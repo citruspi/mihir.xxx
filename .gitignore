@@ -1,5 +1,4 @@
-#ford .gitignore
+# mihir.xxx .gitignore
 
-/build
 *.sublime-project
 *.sublime-workspace

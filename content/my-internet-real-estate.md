@@ -1,6 +1,6 @@
 title: Real Estate
 type: page
-hidden:
+hidden: true
 
 Call me weird, but I've long wanted to keep a list of domains which I own or have owned in the past. Here it is:
 

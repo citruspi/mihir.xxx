@@ -4,6 +4,8 @@ updated: 2013-01-30
 tags: [apple, ios, ipod touch]
 author: mihir
 category: general
+img_source: http://cdn.macrumors.com/article-new/2012/06/ios6_610x407-1.jpg
+img_credit: MacRumors
 type: post
 
 Dear Apple,

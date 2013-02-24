@@ -1,4 +1,4 @@
-title: My Internet Real Estate
+title: Real Estate
 type: page
 hidden:
 

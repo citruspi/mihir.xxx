@@ -1,4 +1,4 @@
-title: Projects and Code
+title: Projects
 type: page
 hidden:
 

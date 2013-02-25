@@ -1,20 +1,43 @@
-theme: medium
+theme: minimal
 title: mihir
-header: mihir
-
-fp_img: http://fc06.deviantart.net/fs70/f/2012/332/9/0/library_by_vladstudio-d5mfjau.jpg
-
+header: <img style="border-radius:20px; -webkit-border-radius:20px; -moz-border-radius:20px; vertical-align:middle;" src="http://gravatar.com/avatar/edeec369f38bc5c4c0b87d5c29edf370/20" height="40px" width="40px"></img>&nbsp;&nbsp;<span style="vertical-align:middle;">mihir</span>
 temp:  >
 
   I'm a big fan of stuff like [tintin](), [James Bond](), [Asterix and Obelix](), [Avatar the Last Airbender](), etc. I love books and programming.
 
 about: > 
+
+  [<i class="icon-github-sign icon-2x" style="color: #222;"></i>](http://github.com/citruspi)
+  &nbsp;&nbsp;
+  [<i class="icon-google-plus-sign icon-2x" style="color: #222;"></i>](https://plus.google.com/108905887992151788954/posts)
+  &nbsp;&nbsp;
+  [<i class="icon-twitter-sign icon-2x" style="color: #222;"></i>](http://twitter.com/citruspi)
+  &nbsp;&nbsp;
+  [<i class="icon-globe icon-2x" style="color: #222;"></i>](http://alpha.app.net/citruspi)
+  &nbsp;&nbsp;
+  [<i class="icon-headphones icon-2x" style="color: #222;"></i>](http://last.fm/user/citruspi)
+
+
+  <!--_No porn here, <del>get it on elsewhere</del> move on._-->
+
   
   Hi there, I'm Mihir. Python programmer. Open Source Advocate. Cheesecake lover. Apple fanboy. All of that and more.
 
+
+  This is my personal site and blog. Its built with ford.py, a static site generator. 
+
+
+  The site's source (a collection of `.md` files) as well as the generator are open source and available at Github.
+
+
 footer: > 
 
-  Powered by [ford.py](http://github.com/citruspi/ford.py)
+  Want to talk? [Let's chat.](mailto:me@mihirsingh.com)
+
+
+  <small>Theme by orderedlist. Ported by [Mihir Singh](http://mihir.xxx) ([@citruspi](http://github.com/citruspi)).
+  <br/>
+  Powered by [ford.py](http://github.com/citruspi/ford.py)</small>
 
 post_blog: >
 

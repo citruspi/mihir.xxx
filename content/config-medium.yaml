@@ -1,0 +1,29 @@
+theme: medium
+title: mihir
+header: mihir
+
+fp_img: http://fc06.deviantart.net/fs70/f/2012/332/9/0/library_by_vladstudio-d5mfjau.jpg
+
+temp:  >
+
+  I'm a big fan of stuff like [tintin](), [James Bond](), [Asterix and Obelix](), [Avatar the Last Airbender](), etc. I love books and programming.
+
+about: > 
+  
+  Hi there, I'm Mihir. Python programmer. Open Source Advocate. Cheesecake lover. Apple fanboy. All of that and more.
+
+footer: > 
+
+  Powered by [ford.py](http://github.com/citruspi/ford.py)
+
+post_blog: >
+
+# Comments (via Disqus)
+
+disqus_id: mihirxxx
+
+# Analytics Settings
+
+gauges_id: 5106ef43108d7b5582000018
+go_squared_id: GSN-298760-Z 
+google_analytics: UA-38496307-1

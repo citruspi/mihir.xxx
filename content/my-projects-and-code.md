@@ -1,6 +1,5 @@
 title: Projects
 type: page
-hidden: true
 
 Just some of the projects which I've worked on. Everything here is __open source__.
 
